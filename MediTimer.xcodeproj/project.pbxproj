@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1DB8BEC167BD76200C47059 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB8BEB167BD76200C47059 /* UIKit.framework */; };
+		F1DB8BEE167BD76200C47059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB8BED167BD76200C47059 /* Foundation.framework */; };
+		F1DB8BF0167BD76200C47059 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB8BEF167BD76200C47059 /* CoreGraphics.framework */; };
+		F1DB8BF6167BD76200C47059 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8BF4167BD76200C47059 /* InfoPlist.strings */; };
+		F1DB8BF8167BD76200C47059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8BF7167BD76200C47059 /* main.m */; };
+		F1DB8BFC167BD76200C47059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8BFB167BD76200C47059 /* AppDelegate.m */; };
+		F1DB8BFE167BD76200C47059 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8BFD167BD76200C47059 /* Default.png */; };
+		F1DB8C00167BD76200C47059 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8BFF167BD76200C47059 /* Default@2x.png */; };
+		F1DB8C02167BD76200C47059 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8C01167BD76200C47059 /* Default-568h@2x.png */; };
+		F1DB8C05167BD76200C47059 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8C03167BD76200C47059 /* MainStoryboard_iPhone.storyboard */; };
+		F1DB8C08167BD76200C47059 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8C06167BD76200C47059 /* MainStoryboard_iPad.storyboard */; };
+		F1DB8C0B167BD76200C47059 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C0A167BD76200C47059 /* ViewController.m */; };
+		F1DB8C12167BDD2700C47059 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DB8C11167BDD2700C47059 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1DB8BE7167BD76200C47059 /* MediTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DB8BEB167BD76200C47059 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1DB8BED167BD76200C47059 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1DB8BEF167BD76200C47059 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1DB8BF3167BD76200C47059 /* MediTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediTimer-Info.plist"; sourceTree = "<group>"; };
+		F1DB8BF5167BD76200C47059 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1DB8BF7167BD76200C47059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1DB8BF9167BD76200C47059 /* MediTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediTimer-Prefix.pch"; sourceTree = "<group>"; };
+		F1DB8BFA167BD76200C47059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1DB8BFB167BD76200C47059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1DB8BFD167BD76200C47059 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F1DB8BFF167BD76200C47059 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F1DB8C01167BD76200C47059 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F1DB8C04167BD76200C47059 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F1DB8C07167BD76200C47059 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F1DB8C09167BD76200C47059 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1DB8C0A167BD76200C47059 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1DB8C11167BDD2700C47059 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DB8BE4167BD76200C47059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB8C12167BDD2700C47059 /* QuartzCore.framework in Frameworks */,
+				F1DB8BEC167BD76200C47059 /* UIKit.framework in Frameworks */,
+				F1DB8BEE167BD76200C47059 /* Foundation.framework in Frameworks */,
+				F1DB8BF0167BD76200C47059 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1DB8BDC167BD76200C47059 = {
+			isa = PBXGroup;
+			children = (
+				F1DB8BF1167BD76200C47059 /* MediTimer */,
+				F1DB8BEA167BD76200C47059 /* Frameworks */,
+				F1DB8BE8167BD76200C47059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DB8BE8167BD76200C47059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB8BE7167BD76200C47059 /* MediTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DB8BEA167BD76200C47059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB8C11167BDD2700C47059 /* QuartzCore.framework */,
+				F1DB8BEB167BD76200C47059 /* UIKit.framework */,
+				F1DB8BED167BD76200C47059 /* Foundation.framework */,
+				F1DB8BEF167BD76200C47059 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1DB8BF1167BD76200C47059 /* MediTimer */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB8BFA167BD76200C47059 /* AppDelegate.h */,
+				F1DB8BFB167BD76200C47059 /* AppDelegate.m */,
+				F1DB8C03167BD76200C47059 /* MainStoryboard_iPhone.storyboard */,
+				F1DB8C06167BD76200C47059 /* MainStoryboard_iPad.storyboard */,
+				F1DB8C09167BD76200C47059 /* ViewController.h */,
+				F1DB8C0A167BD76200C47059 /* ViewController.m */,
+				F1DB8BF2167BD76200C47059 /* Supporting Files */,
+			);
+			path = MediTimer;
+			sourceTree = "<group>";
+		};
+		F1DB8BF2167BD76200C47059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB8BF3167BD76200C47059 /* MediTimer-Info.plist */,
+				F1DB8BF4167BD76200C47059 /* InfoPlist.strings */,
+				F1DB8BF7167BD76200C47059 /* main.m */,
+				F1DB8BF9167BD76200C47059 /* MediTimer-Prefix.pch */,
+				F1DB8BFD167BD76200C47059 /* Default.png */,
+				F1DB8BFF167BD76200C47059 /* Default@2x.png */,
+				F1DB8C01167BD76200C47059 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DB8BE6167BD76200C47059 /* MediTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DB8C0E167BD76200C47059 /* Build configuration list for PBXNativeTarget "MediTimer" */;
+			buildPhases = (
+				F1DB8BE3167BD76200C47059 /* Sources */,
+				F1DB8BE4167BD76200C47059 /* Frameworks */,
+				F1DB8BE5167BD76200C47059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediTimer;
+			productName = MediTimer;
+			productReference = F1DB8BE7167BD76200C47059 /* MediTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DB8BDE167BD76200C47059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jacob Balthazor";
+			};
+			buildConfigurationList = F1DB8BE1167BD76200C47059 /* Build configuration list for PBXProject "MediTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1DB8BDC167BD76200C47059;
+			productRefGroup = F1DB8BE8167BD76200C47059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DB8BE6167BD76200C47059 /* MediTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DB8BE5167BD76200C47059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB8BF6167BD76200C47059 /* InfoPlist.strings in Resources */,
+				F1DB8BFE167BD76200C47059 /* Default.png in Resources */,
+				F1DB8C00167BD76200C47059 /* Default@2x.png in Resources */,
+				F1DB8C02167BD76200C47059 /* Default-568h@2x.png in Resources */,
+				F1DB8C05167BD76200C47059 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F1DB8C08167BD76200C47059 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DB8BE3167BD76200C47059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DB8BF8167BD76200C47059 /* main.m in Sources */,
+				F1DB8BFC167BD76200C47059 /* AppDelegate.m in Sources */,
+				F1DB8C0B167BD76200C47059 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1DB8BF4167BD76200C47059 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DB8BF5167BD76200C47059 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1DB8C03167BD76200C47059 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DB8C04167BD76200C47059 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F1DB8C06167BD76200C47059 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DB8C07167BD76200C47059 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DB8C0C167BD76200C47059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1DB8C0D167BD76200C47059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1DB8C0F167BD76200C47059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediTimer/MediTimer-Prefix.pch";
+				INFOPLIST_FILE = "MediTimer/MediTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1DB8C10167BD76200C47059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediTimer/MediTimer-Prefix.pch";
+				INFOPLIST_FILE = "MediTimer/MediTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DB8BE1167BD76200C47059 /* Build configuration list for PBXProject "MediTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DB8C0C167BD76200C47059 /* Debug */,
+				F1DB8C0D167BD76200C47059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DB8C0E167BD76200C47059 /* Build configuration list for PBXNativeTarget "MediTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DB8C0F167BD76200C47059 /* Debug */,
+				F1DB8C10167BD76200C47059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DB8BDE167BD76200C47059 /* Project object */;
+}
